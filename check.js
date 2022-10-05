@@ -1,4 +1,4 @@
-
+//Question 1
 const steps = (num) => {
     let count = 0
     if(num == 0) return 0
@@ -12,7 +12,7 @@ const steps = (num) => {
 }
 
 
-
+//Question 2
 const fizzBuzz = (n) => {
     var arr = []
     for (var i = 0; i < n; i++) {
@@ -26,7 +26,7 @@ const fizzBuzz = (n) => {
 }
 
 
-
+//Question 3 
 const max = (accounts) => {
     let result = 0
     accounts.forEach((account) => {
